@@ -1,0 +1,94 @@
+/* Default styles */
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 1em;
+	line-height: 1.428em;
+	color: #1e1e1e;
+	background-color: lightskyblue;
+	margin-top: 50px;
+}
+
+p {
+	-webkit-margin-before: .25em;
+	-webkit-margin-after: .25em;
+}
+
+/* body wrapper */
+.wrapper {
+	padding: 25px 50px 50px 50px;
+	width: 1100px;
+	margin: 0 auto;
+	position: relative;
+	border: 1px solid gray;
+	background-color: white;
+	box-shadow: 7px 7px 7px #888888;
+}
+
+@media (min-width: 1200px) {
+	.wrapper {
+		width: 1170px;
+	}
+}
+@media (min-width: 992px) {
+	.wrapper {
+		width: 970px;
+	}
+}
+@media (min-width: 768px) {
+	.wrapper {
+		width: 750px;
+	}
+}
+
+/* header  */
+header {
+	height: 175px;
+}
+.headerTitle {
+	text-align: center;
+}
+.headerAddress {
+	float: left;
+}
+.headerImg {
+	float: right;
+	border-radius: 50%;
+	height: 115px;
+}
+
+/* job section */
+.jobEntry {
+	margin: 0 0 20px 0;
+}
+.jobCompany {
+	font-size: 1.25em;
+	font-weight: bold;
+}
+.jobTitle {
+	font-size: 1.1em;
+	font-weight: normal;
+	color: #777;
+}
+
+/* skills */
+.skills {
+	margin: 0 0 20px 0;
+}
+
+/* education section */
+.educationEntry {
+	margin: 0 0 20px 0;
+}
+.educationName {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+.educationDate {
+	font-style: italic;
+	font-size: .9em;
+}
