@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #4496e4;
+    margin-top: 50px;
+}
+.logo {
+    height: 35px;
+    margin: 0 auto;
+    display: block;
+}
+.center {
+    margin: 0 auto;
+    text-align: center;
+}
+.container {
+    width: 400px;
+    margin: 20px auto 0;
+    background: #fff;
+    border-radius: 5px;
+    padding: 40px 40px;
+}
+label {
+    font-size: 18px;
+}
+input {
+    width: 100%;
+    border: 2px solid lightgray;
+    border-radius: 3px;
+    padding: 15px;
+    color: gray;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.btn {
+    height: 55px;
+    border: 2px solid #69c273;
+    background-color: #69c273;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 20px 0 15px;
+}
+fieldset {
+    border: none;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 0;
+    -webkit-padding-end: 0;
+}
+.title {
+    margin-bottom: 25px;
+}
+.muted a {
+    color: gray;
+}
+.login {
+    margin-top: 20px;
+    color: white;
+}
+.login a {
+    color: white;
+}
