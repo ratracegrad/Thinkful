@@ -8,4 +8,5 @@ function handleClicks() {
 	});
 }
 
-$(document).ready(handleClicks);
+//$(document).ready(handleClicks); // deprecated in jQuery 3 so use below instead
+$(handleClicks);

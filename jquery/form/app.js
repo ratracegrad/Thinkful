@@ -1,0 +1,1 @@
+const email = $('#exampleInputEmail1').text();
