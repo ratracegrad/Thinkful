@@ -1,0 +1,150 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Droid Serif', serif;
+}
+
+/* ------------------------
+       GENERAL ITEMS
+   ----------------------*/
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+img {
+	margin-bottom: 10px;
+}
+.col-3 {
+	width: 33.3333%;
+	float: left;
+	padding: 0px 15px;
+	margin: 25px 0;
+}
+
+/* ------------------------
+          HEADER
+   ----------------------*/
+header {
+	text-align: center;
+}
+.title {
+	text-transform: uppercase;
+	font-size: 72px;
+	font-weight: 700;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+.subtitle::before {
+	content: "---------   ";
+}
+.subtitle::after {
+	content: "   ---------"
+}
+.subtitle {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom: 10px;
+	padding: 0 5px;
+}
+.iconContainer {
+	margin: 0 auto;
+}
+.icon {
+	height: 35px;
+	width: 35px;
+	line-height: 35px;
+	background-color: yellow;
+	border: 1px solid black;
+	border-radius: 3px;
+	margin-right: 5px;
+}
+
+/* ------------------------
+        NAVIGATION
+   ----------------------*/
+.navbar {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 20px 0;
+}
+.navbar ul {
+	display: inline;
+}
+.navbar li {
+	display: inline;
+	margin-right: 40px;
+}
+.navbar li a {
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	display: inline-block;
+}
+.navbar li a:hover {
+	background-color: yellow;
+}
+
+/* ------------------------
+         IMAGES
+   ----------------------*/
+.img-responsive {
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+.grayscale {
+	filter: grayscale(90%);
+}
+
+/* ------------------------
+          ARTICLE
+   ----------------------*/
+.articleDate {
+	color: gray;
+	text-transform: uppercase;
+	line-height: 14px;
+}
+.articleDate::after {
+	content: " | ";
+}
+.articleCategory {
+	text-transform: uppercase;
+	padding-left: 2px;
+	line-height: 14px;
+}
+.articleTitle {
+	font-size: 32px;
+	margin: 10px 0 20px 0;
+	display: inline-block;
+}
+.articleTitle:hover {
+	background-color: yellow;
+}
+.articleContent {
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+
+/* ------------------------
+         BUTTONS
+   ----------------------*/
+.btn {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    padding: 0 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+.btn:hover {
+	background-color: #337ab7;
+	border: transparent;
+}

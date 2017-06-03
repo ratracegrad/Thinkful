@@ -1,0 +1,44 @@
+/* styling used for css example */
+.container {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    font-size: 0;
+}
+.box {
+    border: 1px solid black;
+    display: inline-block;
+}
+.half {
+    width: 50%;
+    height: 200px;
+}
+.third {
+    width: 33.33%;
+    height: 300px;
+}
+.green { background-color: green; }
+.blue { background-color: blue; }
+.gray { background-color: gray; }
+.black { background-color: black; }
+.orange { background-color: orange; }
+
+/* styling used for flexbox */
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto 50px;
+    width: 800px;
+    height: 500px;
+}
+.flexHalf {
+    height: 200px;
+    border: 1px solid black;
+    flex: 1 1 50%;
+}
+.flexThird {
+    height: 300px;
+    border: 1px solid black;
+    flex: 1 1 33.33%;
+}
+
