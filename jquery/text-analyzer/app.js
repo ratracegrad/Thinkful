@@ -17,11 +17,13 @@ $(function() {
         $('#avgWordLength').text(calcAvgWordLength(userInputArr));
 
         /* now display stats to user */
-        $('.text-report').toggleClass('hidden')
+        $('.text-report').removeClass('hidden')
     });
 
 });
 
+
+/* this function takes in an array and calculates the number of unique words in that array */
 function calcUniqueWordCount(arr) {
     const uniqueObj = {};
 
@@ -34,6 +36,7 @@ function calcUniqueWordCount(arr) {
     return Object.keys(uniqueObj).length;
 }
 
+/* this function takes in an array and calculates the average length of all words in the array */
 function calcAvgWordLength(arr) {
     let total = 0;
     arr.forEach(entry => {
